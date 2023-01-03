@@ -79,9 +79,7 @@ module Jekyll
     end
 
     def moved_pages
-      @moved_pages ||= YAML.load_file(
-        File.join(@site.source, 'moved_urls.yml')
-      ).to_a
+      @moved_pages ||= ::Utils::MovedPages.pages(@site)
     end
 
     def existing_redirects
