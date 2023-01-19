@@ -55,6 +55,7 @@ PowerShell
 Prometheus
 Protobuf
 Resty
+SAML
 Splunk
 Stap
 Styra
@@ -210,6 +211,7 @@ middleware
 mimetype
 minifier
 minikube
+minio
 misconfigured
 mutex
 nameserver
@@ -290,7 +292,6 @@ ssl
 ssl_cert_key
 ssl_certificate
 sso
-SAML
 stapxx
 statsd
 stderr
